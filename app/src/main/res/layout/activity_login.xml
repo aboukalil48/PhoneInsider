@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="50dp"
+        android:text="Log In"
+        android:textAlignment="center"
+        android:textColor="@color/font_color"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/l_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:lines="1"
+        android:padding="15dp"
+        android:textColor="@color/font_color"
+        android:textColorHighlight="@color/font_color"
+        android:textColorHint="@color/font_color"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/l_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:textSize="18dp"
+        android:inputType="textPassword"
+        android:textColor="@color/font_color"
+        android:textColorHint="@color/font_color"
+        android:textColorHighlight="@color/font_color"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_rounded"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Log In"
+        android:textColor="@color/font_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/getInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_rounded"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Extract Info"
+        android:textColor="@color/font_color"
+        android:textSize="18sp" />
+</LinearLayout>

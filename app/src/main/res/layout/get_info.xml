@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/getInfo_pageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Change Mode"
+        android:textColor="@color/font_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/info_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="phone number"
+        android:inputType="number"
+        android:lines="1"
+        android:padding="15dp"
+        android:textColor="@color/font_color"
+        android:textColorHighlight="@color/font_color"
+        android:textColorHint="@color/font_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/info_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="password"
+        android:textSize="18sp"
+        android:lines="1"
+        android:inputType="textPassword"
+        android:textColor="@color/font_color"
+        android:textColorHint="@color/font_color"
+        android:textColorHighlight="@color/font_color"/>
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/shapeemail"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="contact name"
+        android:textSize="18sp"
+        android:lines="1"
+        android:inputType="text"
+        android:textColor="@color/font_color"
+        android:textColorHint="@color/font_color"
+        android:textColorHighlight="@color/font_color"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Send"
+            android:textColor="@color/font_color"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Cancel"
+            android:textColor="@color/font_color"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>

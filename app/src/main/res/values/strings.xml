@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Phone Insider</string>
+    <string name="username">Username</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="phone_insider">Phone Insider</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="change_password">Change Password</string>
+    <string name="view_report">View Report</string>
+    <string name="log_out">Log Out</string>
+    <string name="report">Report</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

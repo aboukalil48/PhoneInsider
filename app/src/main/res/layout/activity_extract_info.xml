@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Access Your Phone"
+        android:textAlignment="center"
+        android:textColor="@color/font_color"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/get_sms"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Get Message"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"/>
+        <Button
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/get_contact"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:text="Get Contact"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:id="@+id/vibration"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/normal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_btn"
+            android:shadowColor="@android:color/transparent"
+            android:text="Vibration Mode"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/font_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/on_wifi"
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/get_sms"
+            android:layout_marginBottom="10dp"
+            android:text="Open WiFi"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:layout_alignParentLeft="true" />
+        <Button
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/off_wifi"
+            android:text="Close WiFi"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/get_contact"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/on_data"
+            android:text="Open Mobile Data"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/on_wifi"/>
+        <Button
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/off_data"
+            android:text="Close Mobile Data"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/off_wifi"/>
+
+        <Button
+            android:id="@+id/normal"
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/on_data"
+            android:layout_marginBottom="10dp"
+            android:text="General Mode"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/silent"
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/off_data"
+            android:layout_marginBottom="10dp"
+            android:text="Silent Mode"
+            android:shadowColor="@android:color/transparent"
+            android:background="@drawable/round_btn"
+            android:textColor="@color/font_color"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>
